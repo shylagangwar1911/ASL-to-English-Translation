@@ -2,6 +2,8 @@
 
 ## Project on American Sign Language Letter Recognition with autocorrection and auto complete features
 
+## PyTorch
+
 The project is base code of a translation application for translating American Sign Language snapshots to Engligh characters. The project is built on PyTorch and is trained on 87,000 200x200 pixels images. There are 29 classes, of which 26 are for the letters A-Z and 3 classes for SPACE, DELETE and NOTHING. These 3 non alphabetical classes are very helpful in real time translation applications. The test data set contains a mere 29 images, to encourage the use of real world test images. Dataset can be downloaded from [Kaggle] (https://www.kaggle.com/grassknoted/asl-alphabet).
 
 Since the images in training dataset do not have much variation, data augmentation is used to introduce variance in the training image. A number of data augmentation techniques are used, namely
